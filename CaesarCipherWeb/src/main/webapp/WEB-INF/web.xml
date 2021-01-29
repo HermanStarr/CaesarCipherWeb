@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="4.0" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd">
+    <servlet>
+        <servlet-name>Cipher</servlet-name>
+        <servlet-class>kamil.szymoniak.servlets.CipherServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>Cookies</servlet-name>
+        <servlet-class>kamil.szymoniak.servlets.CookieServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>History</servlet-name>
+        <servlet-class>kamil.szymoniak.servlets.HistoryServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>NoHistory</servlet-name>
+        <servlet-class>kamil.szymoniak.servlets.NoHistoryServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Cipher</servlet-name>
+        <url-pattern>/Cipher</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>Cookies</servlet-name>
+        <url-pattern>/Cookies</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>History</servlet-name>
+        <url-pattern>/History</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>NoHistory</servlet-name>
+        <url-pattern>/NoHistory</url-pattern>
+    </servlet-mapping>
+</web-app>

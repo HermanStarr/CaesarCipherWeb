@@ -1,0 +1,1 @@
+packageSearchIndex = [{"l":"All Packages","u":"allpackages-index.html"},{"l":"kamil.szymoniak.controller"},{"l":"kamil.szymoniak.model"},{"l":"kamil.szymoniak.servlets"},{"l":"kamil.szymoniak.test"},{"l":"kamil.szymoniak.view"}];updateSearchResults();
